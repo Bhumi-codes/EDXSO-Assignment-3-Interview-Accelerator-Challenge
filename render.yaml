@@ -1,0 +1,30 @@
+services:
+  - type: web
+    name: ace-it
+    runtime: python
+    buildCommand: sh deploy/build.sh
+    startCommand: sh deploy/start.sh
+    healthCheckPath: /api/health
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: APP_ORIGIN
+        sync: false
+      - key: APP_ALLOWED_HOSTS
+        sync: false
+      - key: DATABASE_URL
+        sync: false
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_PUBLISHABLE_KEY
+        sync: false
+      - key: VITE_SUPABASE_URL
+        sync: false
+      - key: VITE_SUPABASE_PUBLISHABLE_KEY
+        sync: false
+      - key: GROQ_API_KEY
+        sync: false
+      - key: GROQ_COMMUNICATION_API_KEY
+        sync: false
+      - key: RUN_MIGRATIONS_ON_START
+        value: "false"
