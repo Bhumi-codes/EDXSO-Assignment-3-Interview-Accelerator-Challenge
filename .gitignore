@@ -1,0 +1,33 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Installed dependencies and generated files
+.venv/
+venv/
+node_modules/
+frontend/dist/
+__pycache__/
+.pytest_cache/
+.coverage
+htmlcov/
+*.py[cod]
+*.log
+.DS_Store
+.vscode/
+.idea/
+# Private documents, database exports and temporary recordings
+work/
+outputs/
+release/
+*.dump
+*.sqlite*
+*.db
+*.pdf
+*.docx
+*.wav
+*.webm
+*.mp4
+*.mp3
