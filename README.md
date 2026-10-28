@@ -83,6 +83,10 @@ flowchart TD
 
 UUID keys connect the records, with JSONB used for structured analysis, evidence and processing metadata. The backend verifies the signed-in identity and applies ownership checks to session access. Migrations enable row-level security and revoke direct browser-role table access. Privileged server credentials can bypass RLS, so backend ownership checks remain essential. No candidate histories or database exports are included in this repository.
 
+## Technical Overview
+
+Read the [Technical Overview](TECHNICAL_OVERVIEW.md) for the architecture, AI approach, voice implementation, dynamic questioning, evaluation methodology and key technical decisions.
+
 ## Run your own copy locally
 
 The live demo uses the deployed service owner's configuration. Running your own copy requires your own Supabase project, Google OAuth client and Groq API key.
