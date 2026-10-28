@@ -4,9 +4,7 @@ Ace-it helps you prepare for a job interview using your own resume and the job d
 
 ## Live demo
 
-
-
-
+[▶ Watch the application demo](https://youtu.be/J8KJFt41Sqs)
 
 **[Open Ace-it](https://ace-it.onrender.com)**
 
