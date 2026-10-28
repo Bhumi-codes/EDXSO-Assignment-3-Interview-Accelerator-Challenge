@@ -1,6 +1,6 @@
 # Ace-it
 
-Ace-it helps you prepare for a job interview using your own resume and the job description. It asks relevant questions, listens to your answers and uses the conversation to decide what to ask next. After the interview, you can review your performance, see where you need more practice and follow a personalized preparation plan.
+Ace-it helps you prepare for a job interview using your own resume and the job description and is a **deployed project**. It asks relevant questions, listens to your answers and uses the conversation to decide what to ask next. After the interview, you can review your performance, see where you need more practice and follow a personalized preparation plan.
 
 ## Live demo
 
