@@ -4,11 +4,15 @@ Ace-it helps you prepare for a job interview using your own resume and the job d
 
 ## Live demo
 
+
+
+
+
 **[Open Ace-it](https://ace-it.onrender.com)**
 
 Sign in with Google to create your own preparation sessions. You do not need to install anything to use the live demo.
 
-> The demo runs on Render's free tier and uses the project owner's configured free-tier Groq API allowance. The first visit after inactivity may take about a minute to load. AI features can become temporarily unavailable when the shared provider quota is exhausted.
+> **The demo runs on Render's free tier and uses the project owner's configured free-tier Groq API allowance.** The first visit after inactivity may take about a minute to load. AI features can become temporarily unavailable when the shared provider quota is exhausted.
 
 ## How the project works
 
